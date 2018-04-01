@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='stylesheet' href='style.css'/>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<script src='script.js'></script>
+</head>
+<body>
+    <main>
+        <header>
+            <h3> Solving</h3>
+            <h2>Simultaneous <br/> Equations</h2>
+        </header>
+        <form name='equations'>
+            <input type='text' name='a'/><span> x + </span>
+            <input type='text' name='b'/><span> y = </span>
+            <input type='text' name='c'/>
+            <br/><br>
+            <input type='text' name='d'/><span> x + </span>
+            <input type='text' name='e'/><span> y = </span>
+            <input type='text' name='f'/>
+            <br/><br/>
+            <input type='button' value='SOLVE' onClick='solveEquations()'/>
+        </form>
+        <p class='solution'>Answer</p>            
+        <div id='answer'></div>
+    </main>
+    
+</body>
+</html>
